@@ -1,0 +1,4 @@
+file,match_key,split
+000001_AB12CD.png,000001_AB12CD,train
+000002_QX456B.png,000002_QX456B,val
+000003_ZA321D.png,000003_ZA321D,test

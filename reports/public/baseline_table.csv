@@ -1,0 +1,7 @@
+config,level,seed,weighted_shape_cer,cer,exact,cer_square,cer_rect,status,comparable
+shape_weighted,family_mean,,0.4689,0.3434,0.2647,0.6126,0.2021,completed,yes
+synthetic_static,family_mean,,0.3904,0.2946,0.3289,0.5000,0.1868,completed,yes
+synthetic_curriculum,family_mean,,0.3967,0.2967,0.3359,0.5112,0.1842,completed,yes
+shape_weighted,best_seed,62,0.3539,0.2362,0.4294,0.4887,0.1037,completed,yes
+synthetic_static,best_seed,62,0.2910,0.1966,0.4572,0.3991,0.0903,completed,yes
+synthetic_curriculum,best_seed,62,0.2952,0.1933,0.4772,0.4118,0.0787,completed,yes

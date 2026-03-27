@@ -1,0 +1,10 @@
+{
+  "epochs": 12,
+  "patience": 4,
+  "best_by": "weighted_shape",
+  "best_shape_square_weight": 0.7,
+  "square_oversample": 2.0,
+  "synth_ratio": 0.0,
+  "hard_oversample": 1.0,
+  "plot_file": "train_curve_pilot_shape_weighted.png"
+}

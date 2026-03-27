@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the software package."
+title: "Shape-Aware OCR Research Repository"
+type: software
+version: 0.1.0
+date-released: 2026-02-24
+authors:
+  - family-names: "vanekus-ukus"
+abstract: >-
+  Sanitized public research repository for OCR on heterogeneous sequence crops,
+  including subgroup-aware evaluation, predicted shape label handling, and
+  public-safe summaries of a private benchmark study.
+license: MIT
+repository-code: "https://github.com/vanekus-ukus/subgroup-aware-ocr"
+url: "https://github.com/vanekus-ukus/subgroup-aware-ocr"

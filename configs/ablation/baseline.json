@@ -1,0 +1,7 @@
+{
+  "epochs": 30,
+  "best_by": "cer",
+  "square_oversample": 1.0,
+  "synth_ratio": 0.0,
+  "hard_oversample": 1.0
+}

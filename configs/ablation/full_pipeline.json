@@ -1,0 +1,10 @@
+{
+  "epochs": 40,
+  "best_by": "weighted_shape",
+  "best_shape_square_weight": 0.7,
+  "square_oversample": 2.5,
+  "synth_ratio": 0.75,
+  "synth_decay_last": 10,
+  "hard_oversample": 1.5,
+  "hard_topk": 50
+}

@@ -1,0 +1,12 @@
+label,value,status,source,note
+shape_transfer_accuracy,0.9813,completed,non-public shape-transfer report retained as summary,predicted-vs-oracle shape transfer accuracy on the 9000-sample benchmark
+shape_transfer_balanced_accuracy,0.9720,completed,non-public shape-transfer report retained as summary,predicted-vs-oracle balanced accuracy
+main_synthetic_static_weighted_cer_mean,0.3904,completed,reports/public/main_experiment_summary.csv,best completed main weighted-shape CER mean
+main_synthetic_curriculum_weighted_cer_mean,0.3967,completed,reports/public/main_experiment_summary.csv,second-best completed main weighted-shape CER mean
+main_shape_weighted_weighted_cer_mean,0.4689,completed,reports/public/main_experiment_summary.csv,real-only main comparator
+main_shape_weighted_minus_synthetic_static_weighted_delta,0.0785,completed,reports/public/main_config_pairwise_deltas.csv,paired main delta: shape_weighted - synthetic_static
+main_shape_weighted_minus_synthetic_curriculum_weighted_delta,0.0722,completed,reports/public/main_config_pairwise_deltas.csv,paired main delta: shape_weighted - synthetic_curriculum
+main_synthetic_curriculum_minus_synthetic_static_weighted_delta,0.0063,completed,reports/public/main_config_pairwise_deltas.csv,paired main delta: synthetic_curriculum - synthetic_static
+main_synthetic_static_best_seed62_weighted_cer,0.2910,completed,non-public eval report retained as summary,best completed main weighted-shape checkpoint
+main_synthetic_static_square_gap_vs_overall,0.2054,completed,reports/public/main_gap_summary.csv,shape:square CER minus overall CER in the best completed main family
+main_synthetic_static_imported_sg_gap_vs_overall,0.2158,completed,reports/public/main_gap_summary.csv,source:imported_sg CER minus overall CER in the best completed main family

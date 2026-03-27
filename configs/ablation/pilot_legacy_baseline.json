@@ -1,0 +1,10 @@
+{
+  "epochs": 12,
+  "patience": 4,
+  "best_by": "cer",
+  "preprocess_mode": "legacy",
+  "square_oversample": 1.0,
+  "synth_ratio": 0.0,
+  "hard_oversample": 1.0,
+  "plot_file": "train_curve_pilot_legacy_baseline.png"
+}

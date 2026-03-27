@@ -1,0 +1,9 @@
+{
+  "epochs": 12,
+  "patience": 4,
+  "best_by": "cer",
+  "square_oversample": 1.0,
+  "synth_ratio": 0.0,
+  "hard_oversample": 1.0,
+  "plot_file": "train_curve_pilot_baseline.png"
+}
