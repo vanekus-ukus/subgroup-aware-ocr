@@ -1,4 +1,4 @@
-# Subgroup-Aware OCR Results Overview
+# subgroup-aware-ocr: results overview
 
 This file summarizes the public-safe evidence retained from the finished private study.
 

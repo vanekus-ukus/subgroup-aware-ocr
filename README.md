@@ -1,10 +1,10 @@
-# Subgroup-Aware OCR
+# subgroup-aware-ocr
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Research](https://img.shields.io/badge/focus-heterogeneous%20OCR-informational.svg)
 
-Public-facing sanitized repository for research on OCR over heterogeneous sequence crops.
+`subgroup-aware-ocr` is a public-facing sanitized repository for research on OCR over heterogeneous sequence crops.
 
 Canonical repository URL: `https://github.com/vanekus-ukus/subgroup-aware-ocr`
 
@@ -14,11 +14,11 @@ This repository studies OCR on heterogeneous sequence crops, where average metri
 
 ```mermaid
 flowchart TD
-    A["Heterogeneous OCR data<br/>different shapes, sources, and styles"]
-    B["Predicted shape labels<br/>automatic subgroup assignment"]
+    A["Heterogeneous OCR<br/>shape, source, style"]
+    B["Predicted subgroup labels"]
     C["Training comparison<br/>real-only vs synthetic-enhanced"]
     D["Subgroup-aware evaluation<br/>aggregate + hard-bucket metrics"]
-    E["Main result<br/>synthetic helps hard buckets,<br/>but model selection must be subgroup-aware"]
+    E["Main conclusion<br/>synthetic helps hard buckets,<br/>selection must be subgroup-aware"]
 
     A --> B --> C --> D --> E
 ```

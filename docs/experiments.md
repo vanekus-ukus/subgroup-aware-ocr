@@ -1,4 +1,4 @@
-# Subgroup-Aware OCR Experiments
+# subgroup-aware-ocr: experiments
 
 ## Publicly Represented Experiment Families
 

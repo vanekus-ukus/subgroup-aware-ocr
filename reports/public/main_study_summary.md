@@ -1,4 +1,4 @@
-# Subgroup-Aware OCR Main Study Summary
+# subgroup-aware-ocr: main study summary
 
 ## Completed Main Families
 
