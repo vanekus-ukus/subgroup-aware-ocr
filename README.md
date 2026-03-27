@@ -1,10 +1,10 @@
-# subgroup-aware-ocr
+# Subgroup-Aware OCR
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Research](https://img.shields.io/badge/focus-heterogeneous%20OCR-informational.svg)
 
-`subgroup-aware-ocr` is a public-facing sanitized repository for research on OCR over heterogeneous sequence crops.
+Subgroup-Aware OCR is a public-facing sanitized repository for research on OCR over heterogeneous sequence crops.
 
 Canonical repository URL: `https://github.com/vanekus-ukus/subgroup-aware-ocr`
 
@@ -28,7 +28,7 @@ The repository packages three things:
 - a toy dataset and smoke-test pipeline that run end to end without private data;
 - curated public-safe result summaries from the completed private study.
 
-Public-facing branding is `subgroup-aware-ocr`. The internal Python package remains `shape_aware_ocr` for implementation stability.
+Public project name: `Subgroup-Aware OCR`. Repository and distribution slug: `subgroup-aware-ocr`. Internal Python package: `shape_aware_ocr`.
 
 ## What Was Actually Done
 

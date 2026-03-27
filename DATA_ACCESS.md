@@ -1,4 +1,4 @@
-# Data Access
+# Subgroup-Aware OCR: Data Access
 
 ## Public Data Included
 
@@ -42,7 +42,7 @@ The parser normalizes punctuation and duplicate tails.
 
 ## Privacy And Safety Rules
 
-Before using your own data with this repo:
+Before using your own data with Subgroup-Aware OCR:
 - remove absolute paths from manifests;
 - avoid publishing raw images unless you have redistribution rights;
 - do not commit local data directories;

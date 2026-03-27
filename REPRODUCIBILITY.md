@@ -1,4 +1,4 @@
-# Reproducibility
+# Subgroup-Aware OCR: Reproducibility
 
 ## What Is Fully Reproducible From This Public Repository
 
@@ -42,7 +42,7 @@ See:
 
 ## Honest Boundary
 
-This repository is not a claim of full open-data reproducibility. It is a strong public research package that preserves:
+Subgroup-Aware OCR is not a claim of full open-data reproducibility. It is a strong public research package that preserves:
 - the method implementation;
 - the experiment structure;
 - the evidence summaries;
