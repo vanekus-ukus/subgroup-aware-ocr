@@ -1,4 +1,4 @@
-# Shape-Aware OCR Research Repository
+# Subgroup-Aware OCR
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
@@ -8,14 +8,27 @@ Public-facing sanitized repository for research on OCR over heterogeneous sequen
 
 Canonical repository URL: `https://github.com/vanekus-ukus/subgroup-aware-ocr`
 
-## Elevator Pitch
+## Overview
 
-This project studies OCR when the data distribution is not uniform. The main finding is that short-sequence OCR models should not be evaluated only by aggregate CER: the hardest buckets are structurally different, and synthetic data helps them disproportionately.
+This repository studies OCR on heterogeneous sequence crops, where average metrics can hide failures on critical subgroups. The project compares real-only and synthetic-enhanced training regimes, uses predicted shape labels for operational subgroup handling, and argues for subgroup-aware evaluation and model selection.
+
+```mermaid
+flowchart TD
+    A["Heterogeneous OCR data<br/>different shapes, sources, and styles"]
+    B["Predicted shape labels<br/>automatic subgroup assignment"]
+    C["Training comparison<br/>real-only vs synthetic-enhanced"]
+    D["Subgroup-aware evaluation<br/>aggregate + hard-bucket metrics"]
+    E["Main result<br/>synthetic helps hard buckets,<br/>but model selection must be subgroup-aware"]
+
+    A --> B --> C --> D --> E
+```
 
 The repository packages three things:
 - a reusable OCR training and evaluation package;
 - a toy dataset and smoke-test pipeline that run end to end without private data;
 - curated public-safe result summaries from the completed private study.
+
+Public-facing branding is `subgroup-aware-ocr`. The internal Python package remains `shape_aware_ocr` for implementation stability.
 
 ## What Was Actually Done
 
@@ -27,15 +40,13 @@ Completed evidence in the underlying study supports the following points:
 
 Key public numbers are listed in `RESULTS_OVERVIEW.md` and `reports/public/key_numbers.csv`.
 
-## Main Findings
+## Key Findings
 
-- Predicted shape transfer accuracy: `0.9813`
-- Predicted shape balanced accuracy: `0.9720`
-- Main weighted-shape CER means:
-  - `synthetic_static = 0.3904`
-  - `synthetic_curriculum = 0.3967`
-  - `shape_weighted = 0.4689`
-- Hardest stable cluster in the completed study: `square + imported + inverse/high-contrast`
+- Heterogeneous OCR should not be judged by aggregate CER alone.
+- Predicted shape labels are accurate enough for operational subgroup handling.
+- Synthetic-enhanced training improves robustness on the hardest buckets.
+- `square` remains the hardest stable subgroup in the completed study.
+- Subgroup-aware model selection can differ from aggregate-best selection.
 
 ## Pipeline Overview
 

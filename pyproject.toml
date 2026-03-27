@@ -3,9 +3,9 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "shape-aware-ocr"
+name = "subgroup-aware-ocr"
 version = "0.1.0"
-description = "Research package for subgroup-aware OCR on heterogeneous sequence crops"
+description = "Public research package for subgroup-aware OCR on heterogeneous sequence crops"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
@@ -26,17 +26,17 @@ dev = [
 ]
 
 [project.scripts]
-shape-aware-ocr-build-alphabet = "shape_aware_ocr.cli.build_alphabet:main"
-shape-aware-ocr-generate-toy-dataset = "shape_aware_ocr.cli.generate_toy_dataset:main"
-shape-aware-ocr-train = "shape_aware_ocr.cli.train:main"
-shape-aware-ocr-evaluate = "shape_aware_ocr.cli.evaluate:main"
-shape-aware-ocr-train-shape-classifier = "shape_aware_ocr.cli.train_shape_classifier:main"
-shape-aware-ocr-predict-shape-labels = "shape_aware_ocr.cli.predict_shape_labels:main"
-shape-aware-ocr-run-ablation = "shape_aware_ocr.cli.run_ablation:main"
-shape-aware-ocr-build-report = "shape_aware_ocr.cli.build_research_report:main"
-shape-aware-ocr-build-gap-summary = "shape_aware_ocr.cli.build_gap_summary:main"
-shape-aware-ocr-build-contact-sheet = "shape_aware_ocr.cli.build_contact_sheet:main"
-shape-aware-ocr-build-error-contact-sheet = "shape_aware_ocr.cli.build_error_contact_sheet:main"
+subgroup-aware-ocr-build-alphabet = "shape_aware_ocr.cli.build_alphabet:main"
+subgroup-aware-ocr-generate-toy-dataset = "shape_aware_ocr.cli.generate_toy_dataset:main"
+subgroup-aware-ocr-train = "shape_aware_ocr.cli.train:main"
+subgroup-aware-ocr-evaluate = "shape_aware_ocr.cli.evaluate:main"
+subgroup-aware-ocr-train-shape-classifier = "shape_aware_ocr.cli.train_shape_classifier:main"
+subgroup-aware-ocr-predict-shape-labels = "shape_aware_ocr.cli.predict_shape_labels:main"
+subgroup-aware-ocr-run-ablation = "shape_aware_ocr.cli.run_ablation:main"
+subgroup-aware-ocr-build-report = "shape_aware_ocr.cli.build_research_report:main"
+subgroup-aware-ocr-build-gap-summary = "shape_aware_ocr.cli.build_gap_summary:main"
+subgroup-aware-ocr-build-contact-sheet = "shape_aware_ocr.cli.build_contact_sheet:main"
+subgroup-aware-ocr-build-error-contact-sheet = "shape_aware_ocr.cli.build_error_contact_sheet:main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}

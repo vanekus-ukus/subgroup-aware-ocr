@@ -1,4 +1,4 @@
-# Evaluation Design
+# Subgroup-Aware OCR Evaluation Design
 
 ## Why Aggregate CER Is Not Enough
 

@@ -1,4 +1,4 @@
-# Project Structure
+# Subgroup-Aware OCR Project Structure
 
 ```text
 src/shape_aware_ocr/         core package
